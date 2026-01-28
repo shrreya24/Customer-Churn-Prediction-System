@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (too large for git)
+data/raw/
+data/processed/
+data/features/
+*.csv
+*.xlsx
+
+# Model outputs (regeneratable)
+outputs/models/*.pkl
+outputs/figures/*.png
+outputs/reports/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kaggle credentials (sensitive)
+kaggle.json
+.kaggle/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
