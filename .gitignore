@@ -26,7 +26,7 @@ data/features/
 *.xlsx
 
 # Model outputs (regeneratable)
-outputs/models/*.pkl
+# outputs/models/*.pkl
 outputs/figures/*.png
 outputs/reports/
 

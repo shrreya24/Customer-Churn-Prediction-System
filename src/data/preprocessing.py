@@ -93,7 +93,7 @@ class DataPreprocessor:
         
         # Identify categorical columns (excluding target and IDs)
         categorical_cols = df_encoded.select_dtypes(
-            include=['object']
+            include=['object', 'category', 'string']
         ).columns.tolist()
         
         # Remove excluded features
