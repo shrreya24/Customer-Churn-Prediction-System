@@ -62,7 +62,8 @@ st.markdown("""
 def load_models():
     """Load trained models and preprocessors."""
     config = Config()
-    models_path = Path(config.outputs.get('models_path', 'outputs/models/'))
+    project_root = Path(__file__).parent.parent
+    models_path = project_root / config.outputs.get('models_path', 'outputs/models/')
     
     # Load XGBoost model (best performer)
     model_path = models_path / 'xgboost.pkl'
