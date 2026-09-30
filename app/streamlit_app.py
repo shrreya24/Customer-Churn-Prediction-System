@@ -114,7 +114,7 @@ def main():
     
     # Sidebar
     with st.sidebar:
-        st.image("https://via.placeholder.com/300x100/1f77b4/ffffff?text=Telco+Analytics", use_column_width=True)
+        st.image("https://via.placeholder.com/300x100/1f77b4/ffffff?text=Telco+Analytics", use_container_width=True)
         st.markdown("---")
         page = st.radio("Navigation", ["🎯 Churn Prediction", "📈 Model Insights", "ℹ️ About"])
         st.markdown("---")
